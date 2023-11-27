@@ -1,0 +1,14 @@
+{% extends "parent.html" %}
+{% block content %}
+	<p class="contact"><i>KONTAKT:</i></p>
+	<ul class="list">
+		<li>email: abc.def@ghij.com</li>
+		<li>telefon: 123456789</li>
+	</ul>
+	<form class="submit" method="POST">
+		<p><label><b>Wyślij wiadomość:</b></label></p>
+		<textarea name="message" rows="5" cols="50"></textarea>
+		<br>
+		<input type="submit" value="Wyślij">
+	</form>
+{% endblock %}

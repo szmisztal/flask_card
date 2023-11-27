@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+	{% block head %}
+		<meta charset="utf-8">
+		<title>First website</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+	{% endblock %}
+	</head>
+	<body>
+		<h1 class="title"><strong>Strona domowa</strong></h1>
+		<img src="https://yt3.googleusercontent.com/ytc/AL5GRJV7nhEBRwcwaliC7DYnPpag3wEY6EFR2b9UAbYD=s900-c-k-c0x00ffffff-no-rj" width="320" height="320">
+		<div id="content">{% block content%}{% endblock %}</div>
+		
+	</body>
+</html>

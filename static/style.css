@@ -1,0 +1,36 @@
+.title {
+	border: 1px black;
+	font-size: 50px;
+	color: yellow;
+	background: grey;
+	margin-right: 1200px;
+	padding: 100px
+}
+.about {
+	font-size: 50px;
+	color: pink;
+	margin-left: 400px;
+}
+.name {
+	font-size: 35px;
+	color: red;
+	margin-left: 400px;
+}
+.contact {
+	font-size: 50px;
+	color: pink;
+	margin-left: 400px;
+}
+.list {
+	font-size: 35px;
+	color: red;
+	margin-left: 400px;
+}
+.submit {
+	font-size: 35px;
+	margin-left: 50px;
+	color: green;
+}
+textarea {
+    font-size: 20px;
+}
